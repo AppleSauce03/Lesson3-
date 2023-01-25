@@ -1,0 +1,31 @@
+body{
+    color: #191919;
+}
+
+img{
+    width: 300px;
+}
+
+p {
+    color: black;
+    padding: 2px;
+    font-size: 18px
+}
+
+/* Profile */
+header {
+    background: #FFCA99
+}
+
+/* Work Experience */
+.work {
+    background: #FF785A;
+}
+/* Education */
+.education {
+    background: #FFD25A;
+}
+/* Contact Info */
+footer {
+    background: #98B6B1;
+}
