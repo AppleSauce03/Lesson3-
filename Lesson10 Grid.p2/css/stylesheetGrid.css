@@ -1,0 +1,47 @@
+.site {
+    margin: 1em;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+        "head head head"
+        "navbar navbar navbar"
+        "content content content"
+        "foot foot foot";
+    grid-gap: 1em;
+
+}
+
+.head .navbar .content .aside .foot {
+    padding: 1em;
+    color: white;
+}
+
+.head {
+    grid-area: head;
+    background-color: blueviolet;
+}
+
+.navbar {
+    grid-area: navbar;
+    background-color: azure;
+}
+
+.navbar li {
+    display: inline;
+    text-align: center;
+}
+
+.content {
+    grid-area: content;
+    background-color: gold;
+}
+
+.aside {
+    grid-area: content;
+    background-color: red;
+}
+
+.foot {
+    grid-area: foot;
+    background-color: greenyellow;
+}
